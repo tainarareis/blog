@@ -1,5 +1,6 @@
-@include ('layouts.header')
+@extends ('layouts.layout')
 
+@section('content')
 <!--========== PAGE LAYOUT ==========-->
 <!-- About -->
 <div id="about">
@@ -16,8 +17,7 @@
                     <p>Sou Engenharia de Software, recém formada pela Universidade de Brasília. Atualmente atuo como Quality Assurance na empresa ​<a href="http://devsquad.com/">DevSquad</a>. Sou responsável por planejar a
                     execução dos testes, elaborar documentos para realização dos testes, definir as ferramentas para automação dos testes, automatizar a execução dos testes,
                     configurar e utilizar as ferramentas de testes funcionais. Anteriormente, atuei como Gerente de Projetos na Secretaria de Estado de
-                    Educação do DF. Realizei, recentemente, meu trabalho de conclusão de curso
-                    voltado a Sistemas Multiagentes, Arquitetura de Software e Padrões Arquiteturais.
+                    Educação do DF. Realizei, recentemente, meu trabalho de conclusão de curso voltado a Sistemas Multiagentes, Arquitetura de Software e Padrões Arquiteturais.
 
                     <p>Minhas principais qualidades são iniciativa e criatividade. Procuro resolver problemas, como uma engenheira; aplico conhecimentos técnicos da área, dialogo com facilidade com as pessoas e desenvolvo uma solução em conjunto</p>
                 </div>
@@ -330,11 +330,5 @@
     </div>
 </div>
 <!-- End Work -->
-    
 
-
-@include ('layouts.footer')
-
-</body>
-<!-- END BODY -->
-</html>
+@endsection
